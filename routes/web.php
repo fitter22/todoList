@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', 'TaskController@index');
+Route::get('/', 'ProjectController@index');
 
 Route::get('/projects', 'ProjectController@index');
 Route::post('/projects', 'ProjectController@store');
